@@ -30,6 +30,7 @@ for lines in range(8):
     turtle.left(135)
 
 # Hide the Turtle
+turtle.hideturtle()
 
 # Keep the turtle window open
 turtle.done()
