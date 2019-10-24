@@ -12,13 +12,8 @@ import turtle
 # Raise the pen
 turtle.penup()
 
-# Initialize variables for the starting X and Y coordinates
-# Change these to adjust the starting position of the turtle
-x_start = -100
-y_start = -50
-
-# Send the turtle to its starting position.
-turtle.goto(x_start, y_start)
+# Send the turtle to its starting position of (-100, -50).
+turtle.goto(-100, -50)
 
 # Lower the pen
 turtle.pendown()
@@ -26,9 +21,9 @@ turtle.pendown()
 # Draw the pattern using a loop
 for lines in range(8):
 
-    # Move the turtle forward 200 pixels and rotate left 45 degrees
+    # Move the turtle forward 200 pixels and rotate left 135 degrees
     turtle.forward(200)
-    turtle.left(45)
+    turtle.left(135)
 
 # Hide the Turtle
 turtle.hideturtle()
