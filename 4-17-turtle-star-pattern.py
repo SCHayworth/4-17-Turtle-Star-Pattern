@@ -12,8 +12,12 @@ import turtle
 # Raise the pen
 turtle.penup()
 
+# Initialize variables for the starting x and y coordinates
+x_start = -100
+y_start = -50
+
 # Send the turtle to its starting position of (-100, -50).
-turtle.goto(-100, -50)
+turtle.goto(x_start, y_start)
 
 # Lower the pen
 turtle.pendown()
@@ -26,7 +30,6 @@ for lines in range(8):
     turtle.left(135)
 
 # Hide the Turtle
-turtle.hideturtle()
 
 # Keep the turtle window open
 turtle.done()
